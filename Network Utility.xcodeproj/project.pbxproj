@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2DC2521280BA4D100404380 /* Network_UtilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2520280BA4D100404380 /* Network_UtilityApp.swift */; };
+		A2DC2523280BA4D100404380 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2522280BA4D100404380 /* ContentView.swift */; };
+		A2DC2525280BA4D300404380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DC2524280BA4D300404380 /* Assets.xcassets */; };
+		A2DC2528280BA4D300404380 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DC2527280BA4D300404380 /* Preview Assets.xcassets */; };
+		A2DC2533280BA4D300404380 /* Network_UtilityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2532280BA4D300404380 /* Network_UtilityTests.swift */; };
+		A2DC253D280BA4D300404380 /* Network_UtilityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC253C280BA4D300404380 /* Network_UtilityUITests.swift */; };
+		A2DC253F280BA4D300404380 /* Network_UtilityUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC253E280BA4D300404380 /* Network_UtilityUITestsLaunchTests.swift */; };
+		A2DC254C280BA81D00404380 /* TracerouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC254B280BA81D00404380 /* TracerouteView.swift */; };
+		A2DC254E280BB22000404380 /* Run.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC254D280BB22000404380 /* Run.swift */; };
+		A2DC2550280BBA8700404380 /* PingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC254F280BBA8700404380 /* PingView.swift */; };
+		A2DC2552280BE45E00404380 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2551280BE45E00404380 /* InfoView.swift */; };
+		A2DC2596280BEDB800404380 /* NetstatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2595280BEDB800404380 /* NetstatView.swift */; };
+		A2DC2598280BEDEC00404380 /* LookupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2597280BEDEC00404380 /* LookupView.swift */; };
+		A2DC259A280BEE1400404380 /* WhoisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2599280BEE1400404380 /* WhoisView.swift */; };
+		A2DC259C280BEE3400404380 /* FingerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC259B280BEE3400404380 /* FingerView.swift */; };
+		A2DC259E280BEE4C00404380 /* PortScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC259D280BEE4C00404380 /* PortScanView.swift */; };
+		A2DC25DB280C1FD900404380 /* OutputLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC25DA280C1FD900404380 /* OutputLog.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2DC252F280BA4D300404380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2DC2515280BA4D100404380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2DC251C280BA4D100404380;
+			remoteInfo = "Network Utility";
+		};
+		A2DC2539280BA4D300404380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2DC2515280BA4D100404380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2DC251C280BA4D100404380;
+			remoteInfo = "Network Utility";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A21984B3281A03D800041079 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A2DC251D280BA4D100404380 /* Network Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network Utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DC2520280BA4D100404380 /* Network_UtilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_UtilityApp.swift; sourceTree = "<group>"; };
+		A2DC2522280BA4D100404380 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2DC2524280BA4D300404380 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2DC2527280BA4D300404380 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2DC2529280BA4D300404380 /* Network_Utility.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Network_Utility.entitlements; sourceTree = "<group>"; };
+		A2DC252E280BA4D300404380 /* Network UtilityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Network UtilityTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DC2532280BA4D300404380 /* Network_UtilityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_UtilityTests.swift; sourceTree = "<group>"; };
+		A2DC2538280BA4D300404380 /* Network UtilityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Network UtilityUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2DC253C280BA4D300404380 /* Network_UtilityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_UtilityUITests.swift; sourceTree = "<group>"; };
+		A2DC253E280BA4D300404380 /* Network_UtilityUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_UtilityUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2DC254B280BA81D00404380 /* TracerouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TracerouteView.swift; sourceTree = "<group>"; };
+		A2DC254D280BB22000404380 /* Run.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Run.swift; sourceTree = "<group>"; };
+		A2DC254F280BBA8700404380 /* PingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PingView.swift; sourceTree = "<group>"; };
+		A2DC2551280BE45E00404380 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		A2DC2595280BEDB800404380 /* NetstatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetstatView.swift; sourceTree = "<group>"; };
+		A2DC2597280BEDEC00404380 /* LookupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupView.swift; sourceTree = "<group>"; };
+		A2DC2599280BEE1400404380 /* WhoisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoisView.swift; sourceTree = "<group>"; };
+		A2DC259B280BEE3400404380 /* FingerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FingerView.swift; sourceTree = "<group>"; };
+		A2DC259D280BEE4C00404380 /* PortScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortScanView.swift; sourceTree = "<group>"; };
+		A2DC25D9280C1E1200404380 /* Network-Utility-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Network-Utility-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A2DC25DA280C1FD900404380 /* OutputLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutputLog.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2DC251A280BA4D100404380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DC252B280BA4D300404380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DC2535280BA4D300404380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2DC2514280BA4D100404380 = {
+			isa = PBXGroup;
+			children = (
+				A21984B3281A03D800041079 /* README.md */,
+				A2DC251F280BA4D100404380 /* Network Utility */,
+				A2DC2531280BA4D300404380 /* Network UtilityTests */,
+				A2DC253B280BA4D300404380 /* Network UtilityUITests */,
+				A2DC251E280BA4D100404380 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2DC251E280BA4D100404380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC251D280BA4D100404380 /* Network Utility.app */,
+				A2DC252E280BA4D300404380 /* Network UtilityTests.xctest */,
+				A2DC2538280BA4D300404380 /* Network UtilityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2DC251F280BA4D100404380 /* Network Utility */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC25D9280C1E1200404380 /* Network-Utility-Info.plist */,
+				A2DC2520280BA4D100404380 /* Network_UtilityApp.swift */,
+				A2DC2522280BA4D100404380 /* ContentView.swift */,
+				A2DC254D280BB22000404380 /* Run.swift */,
+				A2DC2551280BE45E00404380 /* InfoView.swift */,
+				A2DC2595280BEDB800404380 /* NetstatView.swift */,
+				A2DC254F280BBA8700404380 /* PingView.swift */,
+				A2DC25DA280C1FD900404380 /* OutputLog.swift */,
+				A2DC2597280BEDEC00404380 /* LookupView.swift */,
+				A2DC254B280BA81D00404380 /* TracerouteView.swift */,
+				A2DC2599280BEE1400404380 /* WhoisView.swift */,
+				A2DC259B280BEE3400404380 /* FingerView.swift */,
+				A2DC259D280BEE4C00404380 /* PortScanView.swift */,
+				A2DC2524280BA4D300404380 /* Assets.xcassets */,
+				A2DC2529280BA4D300404380 /* Network_Utility.entitlements */,
+				A2DC2526280BA4D300404380 /* Preview Content */,
+			);
+			path = "Network Utility";
+			sourceTree = "<group>";
+		};
+		A2DC2526280BA4D300404380 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC2527280BA4D300404380 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2DC2531280BA4D300404380 /* Network UtilityTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC2532280BA4D300404380 /* Network_UtilityTests.swift */,
+			);
+			path = "Network UtilityTests";
+			sourceTree = "<group>";
+		};
+		A2DC253B280BA4D300404380 /* Network UtilityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2DC253C280BA4D300404380 /* Network_UtilityUITests.swift */,
+				A2DC253E280BA4D300404380 /* Network_UtilityUITestsLaunchTests.swift */,
+			);
+			path = "Network UtilityUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2DC251C280BA4D100404380 /* Network Utility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DC2542280BA4D300404380 /* Build configuration list for PBXNativeTarget "Network Utility" */;
+			buildPhases = (
+				A2DC2519280BA4D100404380 /* Sources */,
+				A2DC251A280BA4D100404380 /* Frameworks */,
+				A2DC251B280BA4D100404380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Network Utility";
+			packageProductDependencies = (
+			);
+			productName = "Network Utility";
+			productReference = A2DC251D280BA4D100404380 /* Network Utility.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2DC252D280BA4D300404380 /* Network UtilityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DC2545280BA4D300404380 /* Build configuration list for PBXNativeTarget "Network UtilityTests" */;
+			buildPhases = (
+				A2DC252A280BA4D300404380 /* Sources */,
+				A2DC252B280BA4D300404380 /* Frameworks */,
+				A2DC252C280BA4D300404380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2DC2530280BA4D300404380 /* PBXTargetDependency */,
+			);
+			name = "Network UtilityTests";
+			productName = "Network UtilityTests";
+			productReference = A2DC252E280BA4D300404380 /* Network UtilityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2DC2537280BA4D300404380 /* Network UtilityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2DC2548280BA4D300404380 /* Build configuration list for PBXNativeTarget "Network UtilityUITests" */;
+			buildPhases = (
+				A2DC2534280BA4D300404380 /* Sources */,
+				A2DC2535280BA4D300404380 /* Frameworks */,
+				A2DC2536280BA4D300404380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2DC253A280BA4D300404380 /* PBXTargetDependency */,
+			);
+			name = "Network UtilityUITests";
+			productName = "Network UtilityUITests";
+			productReference = A2DC2538280BA4D300404380 /* Network UtilityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2DC2515280BA4D100404380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A2DC251C280BA4D100404380 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					A2DC252D280BA4D300404380 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A2DC251C280BA4D100404380;
+					};
+					A2DC2537280BA4D300404380 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A2DC251C280BA4D100404380;
+					};
+				};
+			};
+			buildConfigurationList = A2DC2518280BA4D100404380 /* Build configuration list for PBXProject "Network Utility" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2DC2514280BA4D100404380;
+			packageReferences = (
+			);
+			productRefGroup = A2DC251E280BA4D100404380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2DC251C280BA4D100404380 /* Network Utility */,
+				A2DC252D280BA4D300404380 /* Network UtilityTests */,
+				A2DC2537280BA4D300404380 /* Network UtilityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2DC251B280BA4D100404380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DC2528280BA4D300404380 /* Preview Assets.xcassets in Resources */,
+				A2DC2525280BA4D300404380 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DC252C280BA4D300404380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DC2536280BA4D300404380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2DC2519280BA4D100404380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DC2598280BEDEC00404380 /* LookupView.swift in Sources */,
+				A2DC25DB280C1FD900404380 /* OutputLog.swift in Sources */,
+				A2DC259E280BEE4C00404380 /* PortScanView.swift in Sources */,
+				A2DC2596280BEDB800404380 /* NetstatView.swift in Sources */,
+				A2DC2550280BBA8700404380 /* PingView.swift in Sources */,
+				A2DC259A280BEE1400404380 /* WhoisView.swift in Sources */,
+				A2DC2523280BA4D100404380 /* ContentView.swift in Sources */,
+				A2DC259C280BEE3400404380 /* FingerView.swift in Sources */,
+				A2DC254E280BB22000404380 /* Run.swift in Sources */,
+				A2DC254C280BA81D00404380 /* TracerouteView.swift in Sources */,
+				A2DC2552280BE45E00404380 /* InfoView.swift in Sources */,
+				A2DC2521280BA4D100404380 /* Network_UtilityApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DC252A280BA4D300404380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DC2533280BA4D300404380 /* Network_UtilityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2DC2534280BA4D300404380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2DC253F280BA4D300404380 /* Network_UtilityUITestsLaunchTests.swift in Sources */,
+				A2DC253D280BA4D300404380 /* Network_UtilityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2DC2530280BA4D300404380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2DC251C280BA4D100404380 /* Network Utility */;
+			targetProxy = A2DC252F280BA4D300404380 /* PBXContainerItemProxy */;
+		};
+		A2DC253A280BA4D300404380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2DC251C280BA4D100404380 /* Network Utility */;
+			targetProxy = A2DC2539280BA4D300404380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A2DC2540280BA4D300404380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2DC2541280BA4D300404380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A2DC2543280BA4D300404380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Network Utility/Network_Utility.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Network Utility/Preview Content\"";
+				DEVELOPMENT_TEAM = T8JQ346X5E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Network-Utility-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Secret Space Agency. ${DEVELOPER}";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.secretspaceagency.Network-Utility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A2DC2544280BA4D300404380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Network Utility/Network_Utility.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Network Utility/Preview Content\"";
+				DEVELOPMENT_TEAM = T8JQ346X5E;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Network-Utility-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2022 Secret Space Agency. ${DEVELOPER}";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.secretspaceagency.Network-Utility";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A2DC2546280BA4D300404380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8JQ346X5E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.secretspaceagency.Network-UtilityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Network Utility.app/Contents/MacOS/Network Utility";
+			};
+			name = Debug;
+		};
+		A2DC2547280BA4D300404380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8JQ346X5E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.secretspaceagency.Network-UtilityTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Network Utility.app/Contents/MacOS/Network Utility";
+			};
+			name = Release;
+		};
+		A2DC2549280BA4D300404380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8JQ346X5E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.secretspaceagency.Network-UtilityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Network Utility";
+			};
+			name = Debug;
+		};
+		A2DC254A280BA4D300404380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = T8JQ346X5E;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.secretspaceagency.Network-UtilityUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Network Utility";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2DC2518280BA4D100404380 /* Build configuration list for PBXProject "Network Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DC2540280BA4D300404380 /* Debug */,
+				A2DC2541280BA4D300404380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DC2542280BA4D300404380 /* Build configuration list for PBXNativeTarget "Network Utility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DC2543280BA4D300404380 /* Debug */,
+				A2DC2544280BA4D300404380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DC2545280BA4D300404380 /* Build configuration list for PBXNativeTarget "Network UtilityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DC2546280BA4D300404380 /* Debug */,
+				A2DC2547280BA4D300404380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2DC2548280BA4D300404380 /* Build configuration list for PBXNativeTarget "Network UtilityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2DC2549280BA4D300404380 /* Debug */,
+				A2DC254A280BA4D300404380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2DC2515280BA4D100404380 /* Project object */;
+}
