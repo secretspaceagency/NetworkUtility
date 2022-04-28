@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A21984B5281A2DCB00041079 /* NetworkInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21984B4281A2DCB00041079 /* NetworkInterface.swift */; };
 		A2DC2521280BA4D100404380 /* Network_UtilityApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2520280BA4D100404380 /* Network_UtilityApp.swift */; };
 		A2DC2523280BA4D100404380 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2DC2522280BA4D100404380 /* ContentView.swift */; };
 		A2DC2525280BA4D300404380 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2DC2524280BA4D300404380 /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		A21984B3281A03D800041079 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A21984B4281A2DCB00041079 /* NetworkInterface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkInterface.swift; sourceTree = "<group>"; };
 		A2DC251D280BA4D100404380 /* Network Utility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Network Utility.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DC2520280BA4D100404380 /* Network_UtilityApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network_UtilityApp.swift; sourceTree = "<group>"; };
 		A2DC2522280BA4D100404380 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 				A2DC2520280BA4D100404380 /* Network_UtilityApp.swift */,
 				A2DC2522280BA4D100404380 /* ContentView.swift */,
 				A2DC254D280BB22000404380 /* Run.swift */,
+				A21984B4281A2DCB00041079 /* NetworkInterface.swift */,
 				A2DC2551280BE45E00404380 /* InfoView.swift */,
 				A2DC2595280BEDB800404380 /* NetstatView.swift */,
 				A2DC254F280BBA8700404380 /* PingView.swift */,
@@ -303,6 +306,7 @@
 				A2DC2596280BEDB800404380 /* NetstatView.swift in Sources */,
 				A2DC2550280BBA8700404380 /* PingView.swift in Sources */,
 				A2DC259A280BEE1400404380 /* WhoisView.swift in Sources */,
+				A21984B5281A2DCB00041079 /* NetworkInterface.swift in Sources */,
 				A2DC2523280BA4D100404380 /* ContentView.swift in Sources */,
 				A2DC259C280BEE3400404380 /* FingerView.swift in Sources */,
 				A2DC254E280BB22000404380 /* Run.swift in Sources */,
